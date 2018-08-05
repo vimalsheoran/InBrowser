@@ -1,9 +1,9 @@
 # Welcome To The InBrowser Archive
 
 This is an archive of browser based graphics and games that are built using the p5.js library.
-This graphics and games are available for anyone to use for or develop upon.
+This graphics and games are available for anyone to use or develop upon.
 
-### List of graphics/game
+### List of all graphics/games
 
 * Devnagari Matrix
 > The famous matrix rain with continously streaming Devanagri Numericals.
