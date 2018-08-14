@@ -22,3 +22,11 @@ This version provides a linear visualisation of the recorded FFT sepctrum.
 This version provides a circular visualisation of the recorded FFT spectrum.
 
 ![Circular Visualiser](circular_visualiser.png)
+
+# Usage
+
+1. Download or clone the repository.
+2. Turning on the visualisers,
+**Linear Visualiser, to access linear visualiser, open the file `linear_visualiser.html`
+**Circular Visualiser, to access circular visualiser, open the file `circular_visualiser.html`
+3. Have fun!
