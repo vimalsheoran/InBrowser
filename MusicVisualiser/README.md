@@ -13,3 +13,5 @@ Now these visualisers work on the principles of [FFT](https://en.wikipedia.org/w
 
 # Linear Visualiser
 
+This version provides a linear visualisation of the recorded FFT sepctrum.
+![Linear Visualiser](linear_visualiser.png)
