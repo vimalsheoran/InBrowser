@@ -56,9 +56,9 @@ function setup(){
 	var angle = 0;
 	var i = 0;
 	while(angle < 360){
-		var xPos = cos(radians(angle)) * radius;
-		var yPos = sin(radians(angle)) * radius;
-		levels[i] = new Level(xPos, yPos, angle, radius)
+		var xPos = cos(radians(angle)) * visualiserRadius;
+		var yPos = sin(radians(angle)) * visualiserRadius;
+		levels[i] = new Level(xPos, yPos, angle, visualiserRadius)
 		angle += angularSpacing;
 		i++;
 	}
@@ -66,7 +66,7 @@ function setup(){
 
 function draw(){
 	translate(windowWidth/2, windowHeight/2);
-	background(random(150, 200),0,0);
+	background(random(0,255),random(0,255),random(0,255));
 	var spectrum = fft.analyze();
 	console.log(levels.length);
 	for(var i = 0; i < NUMBER_OF_LEVELS; i++){
